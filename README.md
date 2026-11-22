@@ -182,50 +182,6 @@ The project demonstrates a privacy-conscious Federated Learning architecture.
 
 Important: Federated Learning alone does not guarantee complete privacy. Model updates may still reveal information. Production healthcare systems would require additional safeguards such as secure aggregation, differential privacy, access control, encryption, auditing, and compliance with applicable healthcare regulations.
 
-## Project Structure
-
-text
-BRCA_Federated_Edge_Project/
-│
-├── app.py
-├── federated_client.py
-├── split_hospitals.py
-│
-├── federated_server/
-│   └── server.py
-│
-├── models/
-│   ├── scaler.pkl
-│   └── global_model.pkl
-│
-├── hospitals/
-│   ├── hospital_A/
-│   │   ├── data.csv
-│   │   └── edge/
-│   │       └── edge_A.py
-│   ├── hospital_B/
-│   │   ├── data.csv
-│   │   └── edge/
-│   │       └── edge_B.py
-│   ├── hospital_C/
-│   │   ├── data.csv
-│   │   └── edge/
-│   │       └── edge_C.py
-│   └── hospital_D/
-│       ├── data.csv
-│       └── edge/
-│           └── edge_D.py
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   
-│
-└── README.md
-
-*The folder structure above represents the core project organization. Additional files may exist in the actual implementation.*
-
 ## Software Requirements
 
  Python 3.10
